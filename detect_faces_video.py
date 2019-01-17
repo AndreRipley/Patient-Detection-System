@@ -1,7 +1,3 @@
-# USAGE
-# python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
-
-# import the necessary packages
 from imutils.video import VideoStream
 import numpy as np
 import argparse
@@ -77,7 +73,6 @@ while True:
 	# if the `q` key was pressed, break from the loop
 	if key == ord("q"):
 		break
-
-# do a bit of cleanup
+		
 cv2.destroyAllWindows()
 vs.stop()
