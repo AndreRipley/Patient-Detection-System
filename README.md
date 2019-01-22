@@ -17,6 +17,11 @@ The system will comprise of 3 classifiers to saftey reason to give us the lowest
 
 ## Facial Recognition
 
+To use the run the file open terminal and go to the directory where your py, txt, and caffemodel files are and type in terminal:
+```
+python detect_faces_video.py --prototxt deploy.prototxt.txt \
+	--model res10_300x300_ssd_iter_140000.caffemodel
+```
 Here is an output of the facial recognition. This will be used as one of the 3 classifiers we will use.
 ![screen shot 2019-01-22 at 12 32 34 am](https://user-images.githubusercontent.com/39922134/51514362-5d314a00-1ddd-11e9-8f04-21efe5d879e9.png)
 
