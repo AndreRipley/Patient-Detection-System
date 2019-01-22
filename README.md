@@ -1,6 +1,6 @@
 # Patient Detection System
 
-This is the repo for alerting nurses wheter a patient gets our of their hospital bed unsuprivsed. This will be implementing computer vision techniques such as action recogonition, human recogntion models, and use of RNNs.
+This is the repo for alerting nurses whether a patient gets our of their hospital bed unsuprivsed. This will be implementing computer vision techniques such as action recogonition, human recogntion models, and use of RNNs.
 
 
 ### Prerequisites
