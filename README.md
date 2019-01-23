@@ -3,7 +3,7 @@
 This is the repo for alerting nurses whether a patient gets our of their hospital bed unsuprivsed. This will be implementing computer vision techniques such as action recogonition, human recogntion models, and use of RNNs.
 
 
-### Prerequisites
+## Prerequisites
 
 You will need:
 
@@ -29,3 +29,5 @@ Here is an output of the facial recognition. This will be used as one of the 3 c
 
 ## Human Detection
 I will be using OpenCV for human detections models. There are two approaches for human detection models which is using Haar Cascades and HOG or Deep Convolutional Nueral Networks. The more accurate model would be the implementation of Deep Convolutional Nueral Networks. However this approaches has a drawback of high GPU usage. 
+
+To counter the GPU usage we will be using a Jetson. To convert over to the Jetson and the use the oboard camera we need to cofigure the following code to use the onboard camera. You can refer to: https://github.com/jetsonhacks/buildOpenCVTX2/blob/master/Examples/cannyDetection.py
